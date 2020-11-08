@@ -1,0 +1,376 @@
+/*GENERAL*/
+body {
+  font-family: "Trip Sans Med";
+  font-size: 16px;
+}
+.container,
+.container2 {
+  width: 1500px;
+
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.container3 {
+  margin: 30px auto;
+
+  width: 1500px;
+  display: flex;
+  height: 100%;
+}
+.container4 {
+  width: 1500px;
+  display: flex;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.noir {
+  color: black;
+}
+h1 {
+  font-size: 54px;
+  color: red;
+  margin: 50px 0 30px 30px;
+  padding: 0 48px 0 48px;
+}
+
+h2 {
+  font-size: 52px;
+  margin: 30px;
+  font-weight: bold;
+}
+h3 {
+  font-size: 32px;
+}
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: #474747;
+  line-height: 34px;
+}
+.paris button {
+  cursor: pointer;
+}
+/*HEADER*/
+header {
+  height: 60px;
+}
+
+header img {
+  width: 183px;
+}
+
+.container {
+  display: flex;
+}
+
+header nav {
+  display: flex;
+  margin-left: 50%;
+}
+.connect {
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+i {
+  margin: 0 20px 0 20px;
+}
+i:hover {
+  border: solid 3px black;
+  border-radius: 25px;
+  padding: 7px;
+}
+
+/*PICTURE*/
+.col-1 {
+  height: 100%;
+}
+.col-2 {
+  height: 100%;
+  width: 480px;
+}
+
+.col-1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.col-2 img {
+  width: 480px;
+}
+.moto,
+.eiffel {
+  height: 295px;
+}
+
+/*MAIN*/
+.title {
+  color: black;
+}
+li {
+  border-radius: 25px;
+  border: solid 2px black;
+  height: 65px;
+  margin: 20px auto 26px auto;
+  padding: 15px 15px 10px 15px;
+  font-size: 24px;
+}
+li:hover {
+  background-color: black;
+  color: white;
+}
+ul {
+  display: flex;
+  margin: 0 48px 0 48px;
+}
+/*PHOTO MAIN*/
+
+.detail > div > p {
+  font-size: 30px;
+  margin: 20px 30px 0 30px;
+}
+#carte {
+  margin: 20px 30px 0 30px;
+}
+.paris {
+  height: 235px;
+  background-color: rgb(254, 93, 93);
+  width: 740px;
+  margin: 0;
+  padding: 30px;
+}
+
+/*SECTION*/
+
+.container3 {
+  display: flex;
+
+  width: 1500px;
+  margin: 20px auto;
+  height: 600px;
+}
+.trip {
+  height: 275px;
+  width: 800px;
+  object-fit: cover;
+}
+.paris button {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  border-radius: 25px;
+  border: none;
+}
+/*SECTION 1*/
+
+.section1 {
+  width: 1500px;
+  margin: 0 auto;
+}
+.section1 p {
+  text-align: right;
+  margin: 40px 0;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title div {
+  border-top: black solid 2px;
+  margin: 0 20px;
+  flex: 1;
+}
+
+section h2 {
+  text-align: center;
+}
+.dessin img {
+  width: 60px;
+}
+.dessin li:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid lightgray;
+  text-decoration: underline;
+}
+/*SECTION*/
+.divertir {
+  width: 1500px;
+  display: flex;
+  margin: 0 auto;
+}
+.column1 {
+  padding: 0 50px 0 40px;
+}
+
+.detailler {
+  width: 1400px;
+  height: 600px;
+  margin-bottom: 30px;
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+.detailler img {
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+  margin: 5px;
+}
+figcaption {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #f9f1ec;
+  width: 1500px;
+  display: flex;
+  margin: 0 auto;
+}
+footer li {
+  border: none;
+  text-decoration: underline;
+}
+footer li:hover {
+  background-color: white;
+  color: black;
+}
+/*MEDIA QUERIES */
+
+@media (max-width: 1328px) {
+  li > span {
+    font-size: 15px;
+  }
+  .container,
+  .container2,
+  .container4,
+  .container3,
+  .divertir,
+  .section1 {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  header nav {
+    margin-left: 30%;
+  }
+  .paris {
+    width: 480px;
+  }
+  .eiffel {
+    margin-top: 7px;
+  }
+  .trip {
+    width: 540px;
+  }
+  .container3 p {
+    font-size: 20px;
+  }
+  .container3 h2 {
+    font-size: 40px;
+  }
+  .section1 p {
+    font-size: 20px;
+    margin: 5px 0;
+  }
+  .section1 h2 {
+    font-size: 35px;
+  }
+  .dessin li {
+    font-size: 15px;
+  }
+  .detailler {
+    width: 750px;
+  }
+  figure {
+    width: 250px;
+    height: 500px;
+  }
+  .detailler img {
+    width: 200px;
+    height: 200px;
+  }
+  .column1 {
+    width: 650px;
+  }
+
+  .detailler {
+    height: 300px;
+  }
+
+  figcaption {
+    font-size: 20px;
+  }
+  .detailler p {
+    font-size: 15px;
+  }
+  .column1 {
+    width: 300px;
+  }
+  .column1 p {
+    font-size: 20px;
+  }
+  footer li {
+    font-size: 15px;
+  }
+  footer {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 768px) {
+  /*Navigation*/
+  header nav {
+    display: none;
+  }
+  header img {
+    margin-left: 250px;
+  }
+
+  li {
+    border-radius: 25px;
+    border: solid 2px black;
+    height: 65px;
+    margin: 5px 5px 26px auto;
+    padding: 5px 5px 10px 5px;
+    font-size: 15px;
+  }
+
+  .container,
+  .container2,
+  .container4,
+  .container3,
+  .divertir,
+  .section1,
+  footer {
+    width: 700px;
+    margin: 0 40px;
+  }
+
+  .container31 {
+    display: inline;
+  }
+  .col-2 {
+    display: none;
+  }
+
+  .container3 p {
+    margin: 30px;
+  }
+  #carte {
+    margin-left: 100px;
+  }
+}
